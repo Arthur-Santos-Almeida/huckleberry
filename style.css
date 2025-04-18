@@ -3,10 +3,55 @@
   font-family: 'Lato', sans-serif;
 }
 
+header {
+  border-bottom: 8px solid hsl(0deg, 0%, 60%);
+}
+
 html,
 body {
   margin: 0;
   padding: 0;
 }
 
+h2 {
+  margin: 0;
+}
+
+main {
+  background-color: hsl(0deg, 0%, 40%);
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+.card {
+  background-color: hsl(0deg, 0%, 100%);
+  border-bottom: 8px solid hsl(0deg, 0%, 60%);
+  padding: 8px 16px 16px 16px;
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  width: fit-content;
+  padding: 16px 32px 16px 32;
+  margin-left: -32px;
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+}
+
+.intro-chunk {
+  max-width: 52%;
+}
+
+.intro-chunk strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.max-width-wrapper {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 /* Add styles here! */
